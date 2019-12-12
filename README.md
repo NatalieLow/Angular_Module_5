@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Restaurant
 
 Restaurant front-end implementation in AngularJS for David Chu's China Bistro.
@@ -7,3 +8,7 @@ Enroll in the [complete free course on AngularJS][aeac87f1]
 
   [Single Page Web Applications with AngularJS][39804538]
   [39804538]: https://www.coursera.org/learn/single-page-web-apps-with-angularjs "Enroll in the course on AngluarJS"
+=======
+# Angular_Module_5
+Final homework assignment for the Single Page Web Applications with AngularJS Course on Coursera
+>>>>>>> 0cddc3aee52f33f6d0181602aa1b9a29c3ef4b7d
