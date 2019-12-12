@@ -1,0 +1,20 @@
+<form name='userForm' novalidate>
+	<input type="text" name="first_name" placeholder="First Name"
+		ng-model="user.first_name"
+		required
+		minlength="3">
+	<input type="text" name="last_name" placeholder="Last Name"
+		ng-model="user.last_name"
+		required
+		minlength="3">
+	<input type="email" name="email" placeholder="Email"
+		ng-model="user.email" required>
+	<input type="text" name="phone" placeholder="Phone ###-###-####"
+		ng-model="user.phone" required
+		pattern="(\d{3})-(\d{3})-(\d{4})">
+	<input type="text" name="short_name" placeholder="Favorite 
+		Dish Short Name" ng-model="user.short_name">	
+
+	<button ng-disabled="userForm.$invalid"
+		ng-click="user.submit()">Submit</button>>
+</form>
