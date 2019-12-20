@@ -8,6 +8,6 @@ MenuItemsController.$inject = ['menuItems'];
 function MenuItemsController(menuItems) {
   var $ctrl = this;
   $ctrl.menuItems = menuItems;
-}
+};
 
 })();

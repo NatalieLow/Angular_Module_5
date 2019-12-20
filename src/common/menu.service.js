@@ -29,6 +29,4 @@ function MenuService($http, ApiPath) {
 
 }
 
-
-
 })();

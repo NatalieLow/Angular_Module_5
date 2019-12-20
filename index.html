@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/sign-up.css">
   </head>
   <body ng-app="restaurant" ng-strict-di 
-    ng-controller="UserController as user">
+    >
 
     <!-- Fixed position loading indicator -->
     <loading class="loading-indicator"></loading>
@@ -53,11 +53,11 @@
                   <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
               </li>
               <li>
-                <a href="#">
+                <a ui-sref="public.userinfo">
                   <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> My Info</a>
               </li>
               <li>
-                <a href="#">
+                <a ui-sref="public.signup">
                   <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Sign Up</a>
               </li>
               <li id="phone" class="hidden-xs">
@@ -135,6 +135,11 @@
     <script src="src/public/menu-items/menu-items.controller.js"></script>
     <script src="src/public/menu-item/menu-item.component.js"></script>
 
+    <!-- User Sign-up and Info -->
+    <script src="src/public/user-info/user.controller.js"></script>
+    <script src="src/public/sign-up/registration.controller.js"></script>
+    <script src="src/public/user-info/userinfo.service.js"></script>
+    
     <!-- ADMIN SITE -->
 
     <!--Application files -->

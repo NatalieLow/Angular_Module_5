@@ -5,3 +5,7 @@
 .ng-touched.ng-invalid {
 	border: 2px red solid;
 }
+
+input[type="text"], [type="email"] {
+	color: black;
+}
